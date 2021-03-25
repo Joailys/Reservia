@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href=".css">
+	<title></title>
+</head>
+<body>
+    <form method="POST" action="donne.php"> 
+        
+        <p>
+            <label for="nom">Quel est votre nom ?</label>
+            <input type="text" name="nom" id="nom" autofocus   />
+        </br>
+            <label for="prenom">Quel est votre prénom ?</label>
+            <input type="text" name="prenom" id="prenom"  />
+        </br>
+
+            <label for="pseudo">Votre pseudo</label> :
+            <input type="text" name="pseudo" id="pseudo" placeholder="ex: 42" size="30"/>
+               
+            <br />
+            <label for="pass">Votre email:</label>
+            <input type="email" />
+            <br />
+            <label for="pass">Votre mot de passe :</label>
+            <input type="password" name="pass" id="pass" />
+
+            <br />
+        <p>
+            Cochez les activités que vous préférez :<br />
+            <input type="checkbox" name="Sport" id="Sport" /> <label for="Sport">Sport</label><br />
+            <input type="checkbox" name="Baignade" id="Baignade" /> <label for="Baignade">Baignade</label><br />
+            <input type="checkbox" name="Manger" id="Manger" /> <label for="Manger">Manger</label><br />
+            <input type="checkbox" name="Repos" id="Repos" /> <label for="Repos">Repos</label>
+        </p>
+        <p>
+            Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :<br />
+            <input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Moins de 15 ans</label><br />
+            <input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">15-25 ans</label><br />
+            <input type="radio" name="age" value="medium25-40" id="medium25-40" /> <label for="medium25-40">25-40 ans</label><br />
+            <input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Encore plus vieux que ça ?!</label>
+        </p>
+        <p>
+            Veillez entrez votre date de naissance:
+            <input type="date" />
+        </p>
+
+        <p>
+            <label for="pays">Quel est votre genre ?</label><br />
+            <select name="pays" id="pays">
+                <option value="Homme">Homme</option>
+                <option value="Femme">Femme</option>
+                <option value="Animal">Animal</option>
+                <option value="Geek">Geek</option>
+                <option value="Top Model">Top Model</option>
+                <option value="E.T">E.T</option>
+                <option value="Dealeur">Dealeur</option>
+            </select>
+        </p>
+        <p>
+            Si Top Model mettre votre numéro ici:
+            <input type="tel" />
+        </p>
+        <p>
+            <label for="pays">Dans quel pays habitez-vous ?</label><br />
+            <select name="pays" id="pays">
+                <optgroup label="Europe">
+                    <option value="france">France</option>
+                    <option value="espagne">Espagne</option>
+                    <option value="italie">Italie</option>
+                    <option value="royaume-uni">Royaume-Uni</option>
+                </optgroup>
+                <optgroup label="Amérique">
+                    <option value="canada">Canada</option>
+                    <option value="etats-unis">Etats-Unis</option>
+                </optgroup>
+                <optgroup label="Asie">
+                    <option value="chine">Chine</option>
+                    <option value="japon">Japon</option>
+                </optgroup>
+            </select>
+        </p>
+
+<p>J'ai lu et j'approuve vouloir rendre hommage au Dieu Raptor Jésus
+    et fumer avec snoop dog de la bonne weed sa mére #42
+    <input type="checkbox" name="choix" />
+</br>
+
+</p>
+    <input type="submit" value="Envoyer">
+
+</a>
+</form>
+
+
+
+</body>
+</html>
+
