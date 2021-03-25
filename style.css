@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(Font/static/Raleway-Regular.ttf);
+}
+* {
+  font-family: Raleway-Regular;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+header {
+  display: flex;
+}
+#logo {
+  margin-top: 20px;
+}
+nav {
+  margin-left: auto;
+}
+ul li {
+  margin-top: 20px;
+  list-style-type: none;
+}
+li {
+  float: left;
+  font-size: 18px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+#no {
+  font-weight: bold;
+}
+
+a:active {
+  padding-top: 40px;
+  border-top: 10px solid #0065fc;
+  color: #0065fc;
+}
+a:visited {
+  color: #0065fc;
+}
+a:link {
+  color: black;
+}
+
+p {
+  font-size: 17.5px;
+}
