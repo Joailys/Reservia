@@ -4,13 +4,12 @@ body {
   font-family: "Raleway", "Sans serif";
 }
 
-
-
 #blocpage {
   margin: auto;
   width: 90%;
 }
 
+/*START Logo + Nav*/
 .highheader{
   display: flex;
   flex-direction: row;
@@ -63,4 +62,5 @@ a {
 .subscribe {
   padding-left: 28px;
 }
+/*END Logo + Nav*/
 
