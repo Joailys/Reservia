@@ -10,12 +10,19 @@
 </head>
 <body  id="blocpage">
 
+  <!--Header start-->
   <header class="header">
 
+    <!--High part start-->
     <div class="highheader">
+
+      <!--Logo start-->
       <div class="logo">
         <img src="img/logo/Reservia.svg" alt="logo Reservia">
       </div>
+      <!--Logo end-->
+
+      <!--Nav start-->
       <nav class="hnav">
         <ul>
           <li>
@@ -29,12 +36,46 @@
           <a href="#" >S'inscrire</a>
         </div>
       </nav>
+      <!--Nav end-->
+
     </div>
+    <!--High part end-->
+
+    <!--Description start-->
     <div class="description">
       <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
       <p>En plein centre ville ou en pleine nature</p>
     </div>
+    <!--Description end-->
+
+    <!--Searchbar start-->
+    <div class="searchbar">
+      <div class="locate">
+        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+      </div>
+      <form method="post" action="search.php">
+        <p>
+            <input type="text" name="localisation" id="city" placeholder="Marseille,France">
+        </p>
+      </form>
+      <div class="buttonsearch">
+        <a href="#" class="search">Rechercher</a>
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+    <!--Searchbar end-->
+    
+    <!--Filter start-->
+    <div class="filter">
+      <h2 class="titlefilter">Filtres</h2>
+      <div class="barreFiltre">
+        <i class="fas fa-money-bill-wave icons"></i>
+      </div>
+    </div>
+    <!--Filter end-->
+
   </header>
+  <!--Header end-->
 
 </body>
 </html>
