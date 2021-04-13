@@ -237,10 +237,8 @@ input {
   background-color: #f2f2f2;
   border-radius: 15px;
   width: 62%;
+  padding: 20px;
   margin: 0 25px 0 0;
-  align-items: center;
-
-  padding-left: 25px;
 }
 
 .hostingmarseille {
@@ -249,12 +247,13 @@ input {
 }
 
 .hotel {
-  width: 25%;
+  width: 30%;
+  width: calc(33.3% - 10px);
   background: white;
   border-radius: 20px;
   padding: 5px;
   box-sizing: border-box;
-  margin: 0 25px 20px 5px;
+  margin: 0 5px 20px 5px;
   box-shadow: 0 5px 16px #0000002e;
   /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
   -webkit-transition: all 1s ease; /* Safari et Chrome */
