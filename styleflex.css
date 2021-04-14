@@ -378,3 +378,86 @@ fa-chart-line:before {
 .starspop {
   margin: 30px;
 }
+
+/* activity*/
+
+#activity {
+  width: 80%;
+}
+
+.containeractivity {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  height: 496px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}
+
+.blocactivity {
+  width: 23%;
+}
+
+.activity {
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+}
+
+.activity:hover {
+  /* L'image est zoomé au survol */
+
+  -webkit-transform: scale(1.05); /* Safari et Chrome */
+  -moz-transform: scale(1.05); /* Firefox */
+  -ms-transform: scale(1.05); /* Internet Explorer 9 */
+  -o-transform: scale(1.05); /* Opera */
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.titlesection {
+  color: black;
+  font-size: 1.3em;
+  padding-left: 8px;
+}
+
+.activity img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.activity1and4img {
+  height: 440px;
+}
+
+.activity2img {
+  height: 200px;
+}
+
+.activity3img {
+  height: 110px;
+}
+
+.activity5img {
+  height: 140px;
+}
+
+.activity6img {
+  height: 140px;
+}
+
+.nameactivity {
+  padding: 0 0px 5px 20px;
+}
+
+.activity2 {
+  margin: 0px 0px 61px;
+}
+
+.activity5 {
+  margin: 0px 0px 92px;
+}
