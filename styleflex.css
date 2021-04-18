@@ -4,21 +4,19 @@ body {
   font-family: "Raleway", "Sans serif";
 }
 
-
 #blocpage {
   margin: auto;
   width: 95%;
   margin-top: 2%;
 }
 
-h2{
+h2 {
   font-size: 20px;
 }
 
-
 /*START Logo + Nav*/
 
-.highheader{
+.highheader {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -34,7 +32,6 @@ h2{
   display: flex;
   margin-right: 3%;
 }
-
 
 header ul {
   display: flex;
@@ -54,7 +51,6 @@ header ul li a:hover {
 header ul li {
   margin-left: 28px;
   margin-right: 50px;
-
 }
 
 a {
@@ -491,7 +487,6 @@ footer {
 /*RESPONSIVE MOBILES*/
 
 @media (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
-
   h2 {
     font-size: 20px;
     font-weight: bold;
@@ -508,8 +503,9 @@ footer {
   }
 
   .highheader {
-    display: grid;
+    display: flex;
     padding-top: 5px;
+    flex-wrap: wrap;
   }
 
   .hnav {
@@ -521,13 +517,11 @@ footer {
     top: 29px;
     right: 30px;
   }
-  
+
   nav {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    margin-top: 2px;
+    justify-content: space-between;
+    margin-top: 10px;
   }
 
   nav ul {
@@ -536,7 +530,7 @@ footer {
 
   header ul li {
     margin-left: 0;
-    padding: 10px 46px 5px 11px;
+    padding: 0px 46px 5px 0px;
   }
 
   header ul li a:hover {
@@ -559,22 +553,28 @@ footer {
   }
 
   .filter {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .titlefilter {
     margin-bottom: 10px;
   }
+  .title {
+    font-size: 12px;
+  }
 
   .closedfilter {
     width: 50%;
     margin-bottom: 10px;
+    margin-left: -1%;
   }
 
   .fam {
     position: absolute;
-    margin: 34px 0 0 55%;
-    width: 35%;
+    margin: 34px 0 0 50%;
+    width: 42%;
   }
 
   .hostingmain {
@@ -655,7 +655,6 @@ footer {
   .insideblockFooter {
     width: auto;
   }
-
 }
 
 /* RESPONSIVE TABLETTE */
@@ -682,7 +681,7 @@ footer {
     align-items: center;
     width: 100%;
   }
-  
+
   .title {
     font-size: 12px;
   }
@@ -716,7 +715,7 @@ footer {
     border-radius: 0;
   }
 
-  #famous{
+  #famous {
     width: 100%;
     position: relative;
     left: 50%;
