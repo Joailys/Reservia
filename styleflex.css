@@ -10,8 +10,12 @@ body {
   margin-top: 2%;
 }
 
-h2 {
+h1 {
   font-size: 20px;
+}
+
+h2 {
+  font-size: 18px;
 }
 
 /*START Logo + Nav*/
@@ -280,7 +284,7 @@ input {
   font-weight: 100;
 }
 
-.hotel h3 {
+.hotel h2 {
   margin: 3px 10px;
 }
 
@@ -360,7 +364,7 @@ fa-chart-line:before {
   color: lightgrey;
 }
 
-.hotelpop h3 {
+.hotelpop h2 {
   margin: 7px;
 }
 
@@ -486,13 +490,16 @@ footer {
 
 /*RESPONSIVE MOBILES*/
 
-@media (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
-  h2 {
+@media (max-width: 767px) /* SMARTPHONES */ {
+  #blocpage {
+  }
+
+  h1 {
     font-size: 20px;
     font-weight: bold;
   }
 
-  h3 {
+  h2 {
     font-size: 16px;
   }
 
@@ -659,7 +666,7 @@ footer {
 
 /* RESPONSIVE TABLETTE */
 
-@media (min-width: 768px) and (max-width: 1024px) /* TABLETTE */ {
+@media (min-width: 767.98px) and (max-width: 1024px) /* TABLETTE */ {
   /* TEXTE DU HEADER */
   .description {
     text-align: center;
