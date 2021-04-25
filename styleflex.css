@@ -517,6 +517,7 @@ footer {
 
   .hnav {
     margin-right: 0;
+    flex-wrap: wrap;
   }
 
   .subscribe {
