@@ -8,6 +8,8 @@ body {
   font-family: "Raleway", "Sans serif";
   width: 100%;
   margin-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 h1 {
@@ -35,34 +37,12 @@ h2 {
 
 .hnav {
   display: flex;
-  margin-right: 3%;
-  width: 30%;
-  justify-content: space-between;
-}
-
-header ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  margin-left: auto;
-  color: #0065fc;
-}
-
-header ul li a:hover {
-  border-top: 5px solid #0065fc;
-  padding-top: 40px;
-  color: #0065fc;
-}
-
-header ul li {
-  margin-left: 28px;
-  margin-right: 50px;
 }
 
 a {
   text-decoration: none;
   color: black;
+  margin-right: 50px;
 }
 
 .subscribe a {
@@ -75,9 +55,6 @@ a {
   padding-top: 40px;
 }
 
-.subscribe {
-  padding-left: 28px;
-}
 /*END Logo + Nav*/
 
 /*START descrption*/
@@ -229,7 +206,8 @@ input {
 
 .hostingmain {
   display: flex;
-  margin: 25px 0 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 /*Hosting marseille*/
@@ -237,7 +215,7 @@ input {
 #hosting {
   background-color: #f2f2f2;
   border-radius: 15px;
-  width: 62%;
+  width: 100%;
   padding: 20px;
   margin: 0 25px 0 0;
 }
@@ -380,6 +358,11 @@ fa-chart-line:before {
   margin: 30px;
 }
 
+#stonk {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* activity*/
 
 #activity {
@@ -472,6 +455,7 @@ footer {
   max-width: 100%;
   padding: 0 10px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .insideblockFooter {
@@ -528,25 +512,15 @@ footer {
     justify-content: space-between;
   }
 
+  a {
+    margin-right: 0px;
+  }
   .subscribe {
     order: 1;
   }
 
   nav ul {
     border-bottom: 2px solid #f2f2f2;
-  }
-
-  header ul li {
-    margin-left: 0;
-    padding: 0px 0px 5px 0px;
-    margin-right: 0;
-    margin-left: 0px;
-  }
-
-  header ul li a:hover {
-    border-bottom: 2px solid #0065fc;
-    border-top: none;
-    padding-bottom: 5px;
   }
 
   .buttonsearch i {
