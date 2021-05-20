@@ -473,11 +473,6 @@ footer {
 
 @media (max-width: 767px) {
 
-  body{
-    width: auto;
-  }
-  
-
   h1 {
     font-size: 20px;
     font-weight: bold;
@@ -490,7 +485,6 @@ footer {
   header {
     margin: 0;
     width: 100%;
-    padding-left: 5px;
   }
 
   .highheader {
@@ -500,16 +494,21 @@ footer {
   }
 
   .hnav {
-    margin-right: 0;
     order: 2;
     width: 100%;
     justify-content: space-around;
     margin-top: 10px;
-    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f2f2f2;  
+
 
   }
+  .hnav a{
+    border-bottom: 2px solid #3205ff;  
+  }
+  
 
-  hnav a:hover{
+  .hnav a:hover{
     border-top: hidden;
     padding-top: 0px;
     margin-top: 0px;
@@ -540,10 +539,13 @@ footer {
     position: relative;
     right: 52px;
   }
+
+  .searchbar{
+    }
+
   .search {
     display: none;
   }
-
   .filter {
     display: flex;
     flex-direction: column;
@@ -643,10 +645,6 @@ footer {
   .blockFooter {
     display: flex;
     flex-direction: column;
-  }
-
-  .insideblockFooter {
-    width: auto;
   }
 }
 
