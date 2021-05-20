@@ -472,7 +472,6 @@ footer {
 /*RESPONSIVE MOBILES*/
 
 @media (max-width: 767px) {
-
   h1 {
     font-size: 20px;
     font-weight: bold;
@@ -499,16 +498,13 @@ footer {
     justify-content: space-around;
     margin-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #f2f2f2;  
-
-
+    border-bottom: 2px solid #f2f2f2;
   }
-  .hnav a{
-    border-bottom: 2px solid #3205ff;  
+  .hnav a {
+    border-bottom: 2px solid #3205ff;
   }
-  
 
-  .hnav a:hover{
+  .hnav a:hover {
     border-top: hidden;
     padding-top: 0px;
     margin-top: 0px;
@@ -521,7 +517,7 @@ footer {
     order: 1;
   }
 
-  .subscribe a:hover{
+  .subscribe a:hover {
     border-top: hidden;
     padding-top: 0px;
   }
@@ -540,8 +536,8 @@ footer {
     right: 52px;
   }
 
-  .searchbar{
-    }
+  .searchbar {
+  }
 
   .search {
     display: none;
