@@ -471,12 +471,12 @@ footer {
 
 /*RESPONSIVE MOBILES*/
 
-@media (max-width: 767px) /* SMARTPHONES */ {
-  #blocpage {
+@media (max-width: 767px) {
+
+  body{
     width: auto;
-    margin-left: 10px;
-    margin-right: 10px;
   }
+  
 
   h1 {
     font-size: 20px;
@@ -503,7 +503,16 @@ footer {
     margin-right: 0;
     order: 2;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 10px;
+    border-bottom: 2px solid;
+
+  }
+
+  hnav a:hover{
+    border-top: hidden;
+    padding-top: 0px;
+    margin-top: 0px;
   }
 
   a {
@@ -511,6 +520,11 @@ footer {
   }
   .subscribe {
     order: 1;
+  }
+
+  .subscribe a:hover{
+    border-top: hidden;
+    padding-top: 0px;
   }
 
   nav ul {
@@ -627,7 +641,8 @@ footer {
   }
 
   .blockFooter {
-    display: grid;
+    display: flex;
+    flex-direction: column;
   }
 
   .insideblockFooter {
