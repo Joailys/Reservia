@@ -498,16 +498,19 @@ footer {
     justify-content: space-around;
     margin-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #f2f2f2;
+    text-align: center;
   }
   .hnav a {
-    border-bottom: 2px solid #3205ff;
+    width: 50%;
+    border-bottom: 2px solid #f2f2f2;
   }
 
   .hnav a:hover {
+    width: 50%;
     border-top: hidden;
     padding-top: 0px;
     margin-top: 0px;
+    border-bottom: 2px solid #3205ff;
   }
 
   a {
@@ -537,6 +540,9 @@ footer {
   }
 
   .searchbar {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    width: 100%;
   }
 
   .search {
@@ -551,6 +557,7 @@ footer {
   .titlefilter {
     margin-bottom: 10px;
   }
+
   .title {
     font-size: 12px;
   }
@@ -654,7 +661,7 @@ footer {
     width: 100%;
   }
   .hnav {
-    margin-right: 40%;
+    margin-right: 13%;
   }
   .hnav a {
     margin-right: 10%;
@@ -686,7 +693,7 @@ footer {
   }
 
   .closedfilter {
-    width: 18%;
+    width: 19%;
   }
 
   .info {
@@ -715,10 +722,14 @@ footer {
 
   .containeractivity {
     height: auto;
+    flex-direction: row;
+  }
+  .blocactivity {
+    margin-top: 10px;
   }
 
-  footer {
-    border-radius: 0;
+  .insideblockFooter {
+    width: 42%;
   }
 }
 @media (min-width: 1025px) and (max-width: 1600px) /* GRAND ECRAN */ {
