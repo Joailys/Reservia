@@ -651,6 +651,10 @@ footer {
 
   .highheader {
     display: flex;
+    width: 100%;
+  }
+  .hnav {
+    margin-right: 10%;
   }
 
   .description {
@@ -689,7 +693,7 @@ footer {
 
   .hostingmain {
     margin: 25px 0 50px;
-    display: FLEX;
+    display: flex;
     flex-direction: column;
   }
 
