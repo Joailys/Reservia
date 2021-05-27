@@ -654,6 +654,9 @@ footer {
     width: 100%;
   }
   .hnav {
+    margin-right: 40%;
+  }
+  .hnav a {
     margin-right: 10%;
   }
 
