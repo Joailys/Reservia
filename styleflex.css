@@ -648,6 +648,11 @@ footer {
 
 @media (min-width: 767.98px) and (max-width: 1024px) /* TABLETTE */ {
   /* TEXTE DU HEADER */
+
+  .highheader {
+    display: flex;
+  }
+
   .description {
     text-align: center;
     margin-bottom: 15px;
@@ -695,19 +700,14 @@ footer {
 
   #hosting {
     width: 100%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%); /*centré dans l'élément parent*/
-    margin-bottom: 20px;
-    border-radius: 0;
   }
 
   #famous {
     width: 100%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    display: grid;
+  }
+
+  .containeractivity {
+    height: auto;
   }
 
   footer {
