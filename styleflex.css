@@ -294,6 +294,9 @@ input {
   width: 32%;
   padding: 20px;
 }
+#colorfas {
+  color: black;
+}
 .hostingpop {
   position: relative;
 }
