@@ -18,8 +18,15 @@ h1 {
 }
 
 h2 {
+  font-size: 20px;
+}
+
+
+h3 {
   font-size: 18px;
 }
+
+
 
 /*START Logo + Nav*/
 
@@ -218,7 +225,7 @@ input {
 #hosting {
   background-color: #f2f2f2;
   border-radius: 15px;
-  width: 100%;
+  width: 65%;
   padding: 20px;
   margin: 0 25px 0 0;
 }
@@ -291,7 +298,7 @@ input {
 #famous {
   background-color: #f2f2f2;
   border-radius: 15px;
-  width: 32%;
+  width: 35%;
   padding: 20px;
 }
 #colorfas {
@@ -362,7 +369,7 @@ fa-chart-line:before {
 }
 
 .starspop {
-  margin: 30px;
+  margin-top: 15px;
 }
 
 #stonk {
@@ -655,11 +662,15 @@ footer {
     display: flex;
     flex-direction: column;
   }
+
+  .insideblockFooter {
+    width: auto;
+=  }
 }
 
 /* RESPONSIVE TABLETTE */
 
-@media (min-width: 767.98px) and (max-width: 1024px) /* TABLETTE */ {
+@media (min-width: 767.98px) and (max-width: 1074px) /* TABLETTE */ {
   /* TEXTE DU HEADER */
 
   .highheader {
@@ -738,7 +749,25 @@ footer {
     width: 42%;
   }
 }
-@media (min-width: 1025px) and (max-width: 1600px) /* GRAND ECRAN */ {
+@media (min-width: 1075px) and (max-width: 1253px){
+  .hnav {
+    margin-right: 13%;
+  }
+  .hnav a {
+    margin-right: 10%;
+  }
+
+  .containeractivity {
+    height: auto;
+    flex-direction: row;
+  }
+  .blocactivity {
+    margin-top: 20px;
+  }
+}
+
+
+@media (min-width: 2000px) and (max-width: 2600px) /* GRAND ECRAN */ {
   #famous {
     display: grid;
   }
